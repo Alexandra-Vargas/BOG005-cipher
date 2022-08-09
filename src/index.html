@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">      
-      <header> 
-        <section id="logo">
-            <img src="C:\Users\alexa\BOG005-cipher\src\Colombiaton imag\Colombiaton Head.png" 
-              <h2>Descubre y codifica palabras de la jerga colombiana con cifrado césar</h2>
-      </header>
-        </section>
-  <section>
-    <h3>Qué palabraaaaaa se refiere a: Ambiente, plan, grupo de amigos, persona chévere</h3>
-    
-  </section>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <header>
+      <section id="logo">
+        <img src="Colombiaton/ColombiatonHead.png" alt="Logo Colombiaton" /><br />
+      </section>
+    </header>
+    <section>
+      <h2>
+        Descubre y codifica palabras de la jerga colombiana con cifrado césar
+      </h2>
+    </section>
+
+    <section id="Pregunta">
+      <h3>
+        Qué palabra se refiere a: Ambiente, plan, grupo de amigos, persona
+        chévere
+      </h3>
+    </section>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <form>
+      <label for="mensajeIngresado" class="label"></label>
+      <input type="text" placeholder="Ingrese aquí su respuesta" id="mensajeIngresado" />
+    </form>
+
+    <br />
+
+    <p>
+      <label class="label">Ingrese número de desplazamientos:</label>
+      <input type="number" id="n_offset_d" class="n_offset_style" />
+    </p>
+
+    <br />
+    <br />
+
+    <button id="btnEncode" class="button">Codificar</button>
+    <button id="btn_noCodificar" class="button">Decodificar</button>
+    <button id="btn_Limpiar" class="button">Limpiar </button>
+
+    <h4>Resultado:</h4>
+    <form>
+      <label for="resultado" class="label"></label>
+      <input type="text" id="resultado" />
+    </form>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
