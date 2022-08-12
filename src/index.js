@@ -9,6 +9,7 @@ function btnCifrar() {
   let textOffset = document.getElementById("n_offset_d").value;
   let resultado = document.getElementById("resultado");
   resultado.value = cipher.encode(textOffset, textEncode); //mandamos argumentos a la funcion encode
+  //agregar un if. para validar que si hay contenido en el input
 }
 
 const btnDecode = document.getElementById("btn_noCodificar");

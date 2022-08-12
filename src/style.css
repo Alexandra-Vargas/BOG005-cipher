@@ -17,7 +17,7 @@ h2 {
 
 h3 {
     position: absolute;
-    margin-top: 80px;
+    margin-top: 70px;
     width: 387px;
     height: 53px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -34,7 +34,7 @@ input { /*Ingrese aqui su respuesta */
     height: 25px;
     text-align: left;
     text-indent: 20px;
-    top: 420px;
+    top: 380px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 11pt;
     border-radius:20px;
@@ -49,7 +49,7 @@ p { /* Ingrese numero de desplazamientos */
     height: 25px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 11pt;
-    top: 470px;
+    top: 430px;
     margin-left: 42%;
 }
 
@@ -70,7 +70,7 @@ p { /* Ingrese numero de desplazamientos */
     width: 100px;
     height: 25px;   
     left: 46%;
-    top: 550px;
+    top: 480px;
     background-color: #0000FF; 
     border-radius:20px; 
     color: white;
@@ -83,7 +83,7 @@ p { /* Ingrese numero de desplazamientos */
     width: 100px;
     height: 25px; 
     left: 60%;
-    top: 550px;
+    top: 480px;
     background-color: #0000FF; 
     border-radius:20px; 
     color: white;
@@ -96,7 +96,7 @@ p { /* Ingrese numero de desplazamientos */
     width: 100px;
     height: 25px; 
     margin-left: 51%;
-    top: 680px;
+    top: 620px;
     background-color: #0000FF; 
     border-radius:20px; 
     color: white;
@@ -112,7 +112,7 @@ h4 { /* Resultado */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11pt;
     font-style: normal;
-    top: 600px;
+    top: 550px;
     margin-left: 51%;
 }
 
@@ -129,7 +129,7 @@ h4 { /* Resultado */
     background: #FFFFFF;
     border: 1px solid #0000FF;
     border-radius: 50px;
-    top: 625px;
+    top: 580px;
 }
 
 
