@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+  
+#logo {
+    margin-left: 280px;
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 50;
+    font-size: 20px;
+    text-align:center;
+    color: #0000FF; 
+    vertical-align: middle;
+    }
+
+h3 {
+    position: absolute;
+    margin-top: 70px;
+    width: 387px;
+    height: 53px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FF0000;
+    margin-left: 40%;
+}
+
+input { /*Ingrese aqui su respuesta */
+    position: absolute;
+    width: 387px;
+    height: 25px;
+    text-align: left;
+    text-indent: 20px;
+    top: 380px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    border-radius:20px;
+    border: solid 1.5px #0000FF;
+    margin-left: 40%;
+}
+
+
+p { /* Ingrese numero de desplazamientos */
+    position: absolute;
+    width:380px;
+    height: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    top: 430px;
+    margin-left: 42%;
+}
+
+
+#n_offset_d {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 25%;
+    font-size: 12pt;
+    border-radius:5px;
+    top: -50%;
+}
+
+
+#btnEncode {
+    position: absolute;
+    width: 100px;
+    height: 25px;   
+    left: 46%;
+    top: 480px;
+    background-color: #0000FF; 
+    border-radius:20px; 
+    color: white;
+    font-size: 12px;
+    border: solid 1.5px #0000FF;
+}
+
+#btn_noCodificar {
+    position: absolute;
+    width: 100px;
+    height: 25px; 
+    left: 60%;
+    top: 480px;
+    background-color: #0000FF; 
+    border-radius:20px; 
+    color: white;
+    font-size: 12px;
+    border: solid 1.5px #0000FF;
+}
+
+#btn_Limpiar {
+    position: absolute;
+    width: 100px;
+    height: 25px; 
+    margin-left: 51%;
+    top: 620px;
+    background-color: #0000FF; 
+    border-radius:20px; 
+    color: white;
+    font-size: 12px;
+    border: solid 1.5px #0000FF;
+}
+
+
+h4 { /* Resultado */
+    position: absolute;
+    width:380px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-style: normal;
+    top: 550px;
+    margin-left: 51%;
+}
+
+
+#resultado {
+    position: absolute;
+    width: 387px;
+    height: 25px;
+    left: 0%;
+    text-indent: 20px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    background: #FFFFFF;
+    border: 1px solid #0000FF;
+    border-radius: 50px;
+    top: 580px;
+}
+
+
